@@ -1,0 +1,348 @@
+*
+{
+	font-family:verdana, ubuntu;
+	font-size:12px;
+	color:black;
+}
+body{
+        margin:0px;
+}
+.td-head
+{
+	background-color:#00157D;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	border:1px dotted #97A2D9;
+	padding:5px;
+}
+
+.td-total
+{
+	background-color:#FFB8BA;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	border:1px dotted #97A2D9;
+	padding:5px;
+}
+
+.td-action
+{
+	background-color:#CADBFF;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	border:1px dotted #97A2D9;
+	padding:5px;
+}
+.td-kecil
+{
+	border:1px dotted #97A2D9;
+	padding:5px;
+	/*background-color:white;*/
+}
+
+.amenu
+{
+	border:0px dotted;
+}
+
+.menu
+{
+	width:30px;
+	height:30px;
+	border:1px dotted white;
+	margin:2px;
+}
+
+.tdmenu
+{
+	text-align:center;
+}
+
+.judul
+{
+	text-align:center;
+	padding:5px;
+	background:#00157D;
+	font-weight:bold;
+	font-size:18px;
+	color:white;
+}
+
+.divmenu
+{
+	text-align:center;
+	background:#9FC7EA;
+}
+
+.filter
+{
+	text-align:center;
+	padding:5px;
+}
+form
+{
+	margin:0px;
+	padding:0px;
+}
+
+.angka
+{
+	text-align:right;
+}
+
+form
+{
+	padding:0px;
+	padding-left:-10px;
+	margin:0px;
+}
+
+input1
+{
+	border:0px solid;
+	border-bottom:1px solid #8C8C8C;
+}
+
+input1:focus
+{
+	background-color:#ECECEC;
+}
+
+hr
+{
+	/*border-color:-moz-use-text-color -moz-use-text-color #97A2D9;*/
+	border-style:none none dotted;
+	border-width:medium medium 1px;
+	margin-top:0px;
+}
+
+.batas
+{
+	border:1px dotted #324BC4;
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:#00157D;
+	color:#ffffff;
+}
+.td-head
+{
+	background-color:#00157D;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	border:1px dotted #97A2D9;
+	padding:5px;
+}
+
+.td-kecil
+{
+	border:1px dotted #97A2D9;
+	padding:5px;
+}
+
+.td-kecil-odd
+{
+	border:1px dotted #97A2D9;
+	padding:5px;
+	/*background-color:#D5E3FF;*/
+}
+
+.td-kecil-odd-kolom
+{
+	border:1px dotted #97A2D9;
+	padding:5px;
+	background-color:#D5E3FF;
+}
+
+.tr-normal
+{
+	background-color:white;
+}
+
+.tr-odd
+{
+	/*background-color:#D5E3FF;*/
+	background-color:#DDE8FF;
+}
+
+.tr-checked
+{
+	background-color:#FFF5A8;
+}
+
+.td-kecil-last
+{
+	border:1px dotted #97A2D9;
+	padding:5px;
+	/*font-weight:bold;*/
+	background-color:#FFBCBC;
+}
+
+.td-kecil-button-last
+{
+	border:1px dotted #97A2D9;
+	background-color:#FFBCBC;
+}
+
+.menu
+{
+	width:85px;
+	background-color:white;
+	color:#978862;
+}
+
+#parent_menu
+{
+	text-align:center;
+	color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+	cursor:pointer;
+	background-color:#00157D;
+	font-weight:bold;
+}
+
+#parent_menu .sub_menu
+{
+	display:none;
+	z-index:5;
+}
+
+#parent_menu:hover
+{
+	background-color:#011B9B;
+	color:white;
+}
+
+#parent_menu:hover .sub_menu
+{
+	position:absolute;
+	display:block;
+	background-color:red;
+	margin-top:5px;
+}
+
+#sub_parent_menu:hover .sub_menu2
+{
+	position:absolute;
+	display:block;
+	background-color:red;
+	margin-top:0px;
+	margin-left:150px;
+}
+
+#parent_menu .sub_menu2
+{
+	display:none;
+}
+
+#menu_item
+{
+	padding:3px;
+	padding-left:10px;
+	padding-right:10px;
+	border-bottom:dashed #ffffff 1px;
+	text-decoration:none;
+}
+
+#menu_item_bawah
+{
+	padding:3px;
+	padding-left:10px;
+	padding-right:10px;
+	text-decoration:none;
+}
+
+#a_menu_item
+{
+	text-decoration:none;
+	color:white;
+	clear:both;
+	float:left;
+	width:150px;
+	padding:5px;
+	padding-left:10px;
+	background-color:#011B9B;
+	cursor:pointer;
+	z-index:10;
+}
+
+#a_menu_item:hover
+{
+	background-color:#324BC4;
+}
+
+.td-kecil-button
+{
+	border:1px dotted #97A2D9;
+}
+
+.td-kecil-button-odd
+{
+	border:1px dotted #97A2D9;
+	background-color:#EDF3FF;
+}
+
+#a_button
+{
+	text-decoration:none;
+	color:white;
+	clear:both;
+	/*float:left;*/
+	width:100%;
+	padding:5px;
+	background-color:#5A5A5A;
+	cursor:pointer;
+	text-align:center;
+	margin:0px;
+	margin-left:-5px;
+	margin-right:-6px;
+}
+
+#a_button:hover
+{
+	background-color:#828282;
+}
+
+.footer
+{
+	text-align:center;
+	color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+	cursor:pointer;
+	background-color:#00157D;
+}
+
+.td-halaman
+{
+	border:1px dotted #97A2D9;
+	background-color:#EDF3FF;
+	padding:5px;
+}
+
+.td-halaman-pilih
+{
+	border:1px dotted #97A2D9;
+	padding:5px;
+}
+
+.button-link {
+	padding: 5px 5px;
+	background: #DDE8FF;
+	color: #000000;
+	font-weight:bold;
+	text-decoration:none;
+	margin:2px;
+	font-size:10;
+	border:1px dotted #00157D;
+}
+
+.button-link:hover {
+	background:#00157D;
+	color:#FFFFFF;
+}
+
